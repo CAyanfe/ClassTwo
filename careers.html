@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./">Home</a>
+            <a href="./aboutus.html">About Us</a>
+            <a href="./careers.html">Careers</a>
+            <a href="./contactus.html">Contact Us</a>
+        </nav>
+    </header>
+    <h1>Careers</h1>
+
+    <table border="1">
+        <thead>
+
+            <tr>
+                <th>S/N</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>&copy; James</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>&lt; Ada &gt;</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Huntely</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <br>
+
+    <form action="contactus.html" method="get">
+        <div>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="please enter your name" required autocomplete="on">
+        </div>
+
+        <div>
+
+            <label for="Age">Age</label>
+            <input type="number" name="age" placeholder="please enter your age">
+        </div>
+
+        <div>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="please enter your email">
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="please enter your password" minlength="4" maxlength="6"
+                pattern="1234">
+        </div>
+
+        <div>
+            <textarea name="message" id="" cols="50" rows="20" disabled></textarea>
+        </div>
+
+        <input type="radio">Name
+        <input type="radio">Name
+        <input type="radio">Age
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
