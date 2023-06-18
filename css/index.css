@@ -1,3 +1,66 @@
-body{
-    background-color: aqua;
+/* nav {
+  background-color: red;
+} */
+
+.h2_class {
+  color: aquamarine;
+}
+
+#idNum {
+  text-align: center;
+}
+
+.nav_items {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  /* color: aqua; */
+}
+
+.sub_class,
+.h2_class {
+  color: blue;
+  font-size: 2rem;
+}
+
+/* .second {
+  text-decoration: none;
+} */
+
+.nav_items .second {
+  text-decoration: none !important;
+}
+
+/* nav a:first-child {
+  text-decoration: none;
+} */
+
+header > p {
+  text-align: center;
+}
+
+.nav_items > a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* unvisited */
+.nav_items > a:link {
+  color: black;
+}
+
+/* visited */
+.nav_items > a:visited {
+  color: green;
+}
+
+/* hover */
+.nav_items > a:hover {
+  color: palevioletred;
+  /* background-color: aqua; */
+}
+
+/* active */
+.nav_items > a:active {
+  color: turquoise;
 }

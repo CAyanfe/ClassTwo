@@ -1,0 +1,52 @@
+body {
+  background-image: url("../images/langHer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.first_img {
+  border: 20px inset rgba(55, 38, 38, 0.7);
+  border-bottom-left-radius: 3rem;
+  padding: 2rem 10rem;
+  margin: 3rem;
+}
+
+.lady {
+  padding: 2rem;
+  margin: 4rem;
+}
+
+nav > a {
+  text-decoration: none;
+  display: block;
+}
+
+/* p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #8ef7a8;
+  font-style: italic;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.5rem;
+  letter-spacing: 0.5rem;
+  word-spacing: 2rem;
+  font-size: 2rem;
+} */
+
+.ps {
+  background-image: url("../images/langHer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100vw; */
+  display: flex;
+  /* opacity: 0.5; */
+}
+
+.ps > p {
+  color: rgba(0, 0, 255, 0.6);
+}
+/* 
+p {
+  display: flex;
+} */

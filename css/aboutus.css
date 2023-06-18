@@ -1,0 +1,30 @@
+.ul_list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  color: red;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  border: none;
+  /* margin: 20px; */
+}
+
+.table th {
+  background-color: antiquewhite;
+  font-size: 1.5rem;
+  border-bottom: 2px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table td,
+th {
+  text-align: center;
+  padding: 10px;
+  /* border-bottom: 2px; */
+  /* border-bottom: 1px; */
+  border-bottom: 1px solid #ddd;
+}
